@@ -1,2 +1,10 @@
 ---
 - name: first
+  hosts: localhost
+  tasks:
+    - name: copieng files from one host to another
+      copy:
+        src: /home/dinesh/ansible/source
+        dest: /home/dinesh/ansible/dest
+      debug:
+        msg: "copied succesfully"
