@@ -9,5 +9,3 @@
         dest: /home/dinesh/ansible/dest
       debug:
         msg: "copied succesfully"
-=======
->>>>>>> 49ac4ec9287654896f5e4fb5b78ebda96e83ea2f
